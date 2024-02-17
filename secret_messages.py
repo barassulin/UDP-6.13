@@ -3,7 +3,7 @@ Author: Bar Assulin
 Date: 25/1/24
 """
 
-import scapy
+from scapy.all import *
 import logging
 
 
