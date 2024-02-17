@@ -26,6 +26,6 @@ def main():
 
 
 if __name__ == "__main__":
-    #logging.basicConfig(format=LOG_FORMAT, filename=LOG_FILE, level=LOG_LEVEL)
+    logging.basicConfig(format=LOG_FORMAT, filename=LOG_FILE, level=LOG_LEVEL)
 
     main()
