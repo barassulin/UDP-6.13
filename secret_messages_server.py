@@ -20,6 +20,7 @@ def main():
     while True:
         capture = sniff(filter="udp", count=1, lfilter=empty_udp_filter)
         char = chr(capture[0][UDP].dport)
+        logging.debug("captured: "+char)
         string = string + char
         print(string)
 
